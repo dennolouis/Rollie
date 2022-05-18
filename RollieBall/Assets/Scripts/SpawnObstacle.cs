@@ -11,19 +11,21 @@ public class SpawnObstacle : MonoBehaviour
     void Start()
     {
         // showUp();
-        nextSpawnTime = Time.time + 3.0f;
-        Destroy(obj[Random.Range(0, obj.Length)] ,TimeToLive);
+        nextSpawnTime = Time.time + 2.0f;
+        
     }
 
     void Update()
     {
         if(Time.time > nextSpawnTime)
         {
+            GameObject obstacle =
             //do stuff here (like instantiate)
             Instantiate(obj[Random.Range(0, obj.Length)], transform.position, Quaternion.identity);
             //Instantiate(obj[ obj.Length - 1], transform.position, Quaternion.identity);
             //increment next_spawn_time
-            nextSpawnTime += 3.0f;
+            nextSpawnTime += 2.0f;
+            Destroy(obstacle, 5.5f);
         }
     }
 
