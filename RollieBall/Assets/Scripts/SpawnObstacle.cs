@@ -5,12 +5,12 @@ using UnityEngine;
 public class SpawnObstacle : MonoBehaviour
 {
 
-    public GameObject obstacles;
+    public GameObject[] obj;
     public Transform spawnEnd;
 
     void Start()
     {
-        Instantiate(obstacles, spawnEnd.position, spawnEnd.rotation);
+        Instantiate(obj[Random.Range(0, obj.Length)], transform.position, Quaternion.identity);
    
     }
     void Update()

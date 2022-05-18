@@ -424,7 +424,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1340787933}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.71, y: -1.22, z: -24.11}
+  m_LocalPosition: {x: 1.71, y: -2.712, z: -24.11}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -443,8 +443,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636657cb13630534ab5bc05989c8914b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacles: {fileID: 8951506962659136179, guid: a11f98919850cc54a94905adc9231325, type: 3}
-  spawnEnd: {fileID: 1340787935}
+  obj:
+  - {fileID: 8951506962659136179, guid: a11f98919850cc54a94905adc9231325, type: 3}
+  - {fileID: 3743507432419084192, guid: 0cb7d62c8b88f644cbdf544c27f9ab7c, type: 3}
+  - {fileID: 2802717022032039424, guid: aee0b5293b1a7f949a973355350a677e, type: 3}
+  spawnEnd: {fileID: 8606929242112624649, guid: a11f98919850cc54a94905adc9231325, type: 3}
 --- !u!1 &1522842796
 GameObject:
   m_ObjectHideFlags: 0
@@ -555,7 +558,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 636657cb13630534ab5bc05989c8914b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  obstacles: {fileID: 8951506962659136179, guid: a11f98919850cc54a94905adc9231325, type: 3}
+  obj: []
   spawnEnd: {fileID: 0}
 --- !u!1001 &6483544475300557197
 PrefabInstance:

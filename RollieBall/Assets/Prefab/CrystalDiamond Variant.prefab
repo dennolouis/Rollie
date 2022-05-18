@@ -69,7 +69,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: 89a1be9b5db177f47ab55b7c85a2c9cc, type: 2}
     - target: {fileID: 919132149155446097, guid: 4c488ad5984675b40bf71057693c3a18, type: 3}
       propertyPath: m_Name
-      value: CrystalDiamond
+      value: CrystalDiamond Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 4c488ad5984675b40bf71057693c3a18, type: 3}
       propertyPath: m_TagString
@@ -102,7 +102,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
---- !u!114 &2114857463
+--- !u!114 &-8601972494358151499
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -114,7 +114,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9dc6814ac446ef548b6ca41b83eca770, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 75
+  speed: 10
   x: 0
   y: 1
   z: 0
+--- !u!114 &-4966692353935959493
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8951506962659136179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f897f6bb59ad4384abc23f17981fa247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
