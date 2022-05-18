@@ -73,7 +73,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: bc420dd8d40bbea47a58dc441d72b51b, type: 2}
     - target: {fileID: 919132149155446097, guid: 607ae04c4c7d35e4b967cdb91f127afa, type: 3}
       propertyPath: m_Name
-      value: CrystalDiamondp2
+      value: CrystalDiamondp2 Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 607ae04c4c7d35e4b967cdb91f127afa, type: 3}
       propertyPath: m_TagString
@@ -106,3 +106,16 @@ MonoBehaviour:
   x: 0
   y: 1
   z: 0
+--- !u!114 &8661024411526973556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3743507432419084192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f897f6bb59ad4384abc23f17981fa247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10

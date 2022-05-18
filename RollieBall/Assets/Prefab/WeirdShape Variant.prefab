@@ -61,7 +61,7 @@ PrefabInstance:
       objectReference: {fileID: 2100000, guid: eda607f2157a09d49abe42899dedccaa, type: 2}
     - target: {fileID: 919132149155446097, guid: f442a2d744f53e24680a1d6090105bbe, type: 3}
       propertyPath: m_Name
-      value: WeirdShape
+      value: WeirdShape Variant
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: f442a2d744f53e24680a1d6090105bbe, type: 3}
       propertyPath: m_TagString
@@ -98,3 +98,16 @@ MonoBehaviour:
   x: 0
   y: 0
   z: 1
+--- !u!114 &2602234766565880248
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2802717022032039424}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f897f6bb59ad4384abc23f17981fa247, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
