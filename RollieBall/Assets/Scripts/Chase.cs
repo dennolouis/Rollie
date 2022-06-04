@@ -1,6 +1,5 @@
 using System.Collections;
 using System.Collections.Generic;
-using UnityEngine.AI;
 using UnityEngine;
 public class Chase : MonoBehaviour
 {
@@ -11,8 +10,6 @@ public class Chase : MonoBehaviour
     void Start()
     {
         transform.LookAt(FindObjectOfType<MoveSphere>().transform);
-        
-        //transform.Translate(xNum, yNum, zNum);
     }
 
     // Update is called once per frame
