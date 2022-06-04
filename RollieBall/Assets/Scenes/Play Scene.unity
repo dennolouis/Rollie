@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.705319, g: 0.7540595, b: 0.8003775, a: 1}
+  m_IndirectSpecularColor: {r: 0.7054968, g: 0.7539972, b: 0.8005331, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -169,7 +169,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 0.6442478, y: 1}
+    m_SensorSize: {x: 0.64810425, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -528,7 +528,7 @@ GameObject:
   - component: {fileID: 567841921}
   - component: {fileID: 567841920}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: SpawnPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
