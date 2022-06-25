@@ -24,7 +24,7 @@ public class SpawnObstacle : MonoBehaviour
             Instantiate(obj[Random.Range(0, obj.Length)], transform.position, Quaternion.identity);
             nextSpawnTime += 2.0f;
             Destroy(obstacle, 5.5f);
-            ScoreManager.instance.AddPoint();
+            ScoreManager.instance.AddPoint(10);
         }
 
             
