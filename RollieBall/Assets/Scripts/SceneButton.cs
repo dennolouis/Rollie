@@ -13,7 +13,7 @@ public class SceneButton : MonoBehaviour
 		btn.onClick.AddListener(TaskOnClick);
 	}
 
-	void TaskOnClick(){
+	public void TaskOnClick(){
 		//Debug.Log ("You have clicked the button!");
 		SceneManager.LoadScene("Play Scene");
 	}

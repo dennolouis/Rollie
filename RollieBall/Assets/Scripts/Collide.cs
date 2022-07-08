@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 
 public class Collide : MonoBehaviour
@@ -10,13 +11,15 @@ public class Collide : MonoBehaviour
   {      
     if (collision.gameObject.tag == "Obstacle" ) 
     {
-      GameOver.SetActive(true);
+      
       GameIsOver();
     } 
   }
 
   public void  GameIsOver(){
-    
+    GameOver.SetActive(true);
     Debug.Log("Game Over!!!");
+    SceneManager.LoadScene("Game Over");
+
   }
 }
