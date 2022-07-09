@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2341335019956953204, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
     - target: {fileID: 2821616590541542832, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -65,7 +69,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6131695858776754150, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
       propertyPath: m_Name
-      value: RampObstacle 1
+      value: RampObstacle 1 Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 6131695858776754150, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
+      objectReference: {fileID: 0}
+    - target: {fileID: 9176250438704418653, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
+      propertyPath: m_TagString
+      value: Obstacle
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7a499380c5eef134aba15901b91bb791, type: 3}
