@@ -11,7 +11,6 @@ public class Collide : MonoBehaviour
   {      
     if (collision.gameObject.tag == "Obstacle" ) 
     {
-      
       GameIsOver();
     } 
   }
@@ -20,6 +19,5 @@ public class Collide : MonoBehaviour
     GameOver.SetActive(true);
     Debug.Log("Game Over!!!");
     SceneManager.LoadScene("Game Over");
-
   }
 }
